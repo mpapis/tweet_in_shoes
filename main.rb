@@ -1,3 +1,9 @@
+Shoes.setup do
+  bundler
+end
+
+require 'twitter'
+
 Shoes.app :title=>"tweet in shoes", :width=>300 do
   stack :width=>'100%', :height=>30 do
     flow do
